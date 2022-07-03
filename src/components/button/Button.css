@@ -1,0 +1,17 @@
+.btn{
+    color: #fff;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 6px;
+    flex-basis: 22%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: transparent;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
