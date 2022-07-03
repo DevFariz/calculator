@@ -1,9 +1,15 @@
+:root {
+    --white: #ffffff;
+    --orange: #f89409;
+    --gray: #7f8991;
+    --bg-btn: 48%;
+    --sm-btn: 22%;
+  }
+
 .btn{
-    color: #fff;
     font-size: 36px;
     line-height: 54px;
     padding: 6px;
-    flex-basis: 22%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background: transparent;
     border: none;
@@ -15,3 +21,28 @@
 .btn:hover{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
+
+.btn:active{
+    transform: scale(0.8);
+}
+
+.btn-bg {
+    flex-basis: var(--bg-btn);
+}
+
+.btn-sm {
+    flex-basis: var(--sm-btn);
+}
+
+.white {
+    color: var(--white)
+}
+
+.orange {
+    color: var(--orange)
+}
+
+.gray {
+    color: var(--gray)
+}
+
