@@ -4,7 +4,7 @@ import "./Input.css"
 class Input extends Component {
     render() {
         return (
-            <input value={0} type="text" className='input' readOnly={true}/>
+            <input value={this.props.expression || 0} type="text" className='input' readOnly={true}/>
         );
     }
 }

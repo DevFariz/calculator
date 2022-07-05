@@ -4,11 +4,10 @@ import "./Button.css"
 export default class Button extends Component {
 
   render() {
-
-    const {term, bg, color} = this.props
+    const {term, bg, color, onClick} = this.props;
 
     return (
-      <button className={`btn ${bg} ${color}`}>{term}</button>
+      <button onClick={onClick} className={`btn ${bg} ${color}`}>{term}</button>
     )
   }
 }

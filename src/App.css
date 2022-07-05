@@ -14,7 +14,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: #3e495b;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -24,10 +24,11 @@ body{
 
 .App {
     width: 400px;
-    background-color: #283345;
+    background-color: var(--bg-color-dark);
     margin: 0 auto;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 .buttons {
