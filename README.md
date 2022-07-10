@@ -1,2 +1,2 @@
 Stack: React <br>
-Deploy: Coming soon
+Deploy: https://devfariz.github.io/calculator/
